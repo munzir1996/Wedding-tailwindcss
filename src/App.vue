@@ -1,17 +1,24 @@
 <template>
-  <div id="app">
-    <h1 class="text-indigo-500">Tailwindcss</h1>
+  <div id="app" class="font-serif">
+    <Header/>
   </div>
 </template>
 
 <script>
-
-
-export default {
-  name: 'App',
-  components: {}
-}
+  import Header from '@/components/Header'
+  export default {
+    name: 'App',
+    components: {
+      Header,
+    },
+    data(){
+      return{
+      }
+    },
+    methods:{
+      
+    }
+  }
 </script>
 
 <style src="./assets/css/tailwind.css"></style>
-
