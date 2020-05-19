@@ -7,6 +7,7 @@
           <a href="#contactus" class="md:hover:bg-gray-500 md:px-4 md:py-2 md:rounded-full text-white">CONTACT US</a>
           <a href="#services" class="md:hover:bg-gray-500 md:px-4 md:py-2 md:rounded-full text-white">SERVICES</a>
         </div>
+        
         <div>
           <div class="md:px-4 md:py-2 md:border md:rounded-full">
             <a href="#en" class="text-white">EN</a>
