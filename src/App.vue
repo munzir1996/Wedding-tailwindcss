@@ -1,8 +1,6 @@
 <template>
-  <div id="app" class="font-roboto bg-gray-100 h-screen">
+  <div id="app" class="font-roboto min-h-screen">
     <Header />
-    <div class="mb-10">
-
       <div class="md:px-10 md:mt-32 md:mb-10">
         <div class="md:container md:mx-auto md:w-11/12">
           <agile>
@@ -181,7 +179,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
