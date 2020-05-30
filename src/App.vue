@@ -94,7 +94,7 @@
           <span class="text-4xl">Our Master Photographers</span>
         </div>
         <div class="flex flex-wrap">
-          <div class="md:w-1/2 px-10 md:px-16 lg:px-6 lg:w-1/4">
+          <div class="md:w-1/2 px-10 md:px-16 lg:px-4 lg:w-1/4">
             <div>
               <img class="h-full w-full object-cover mx-auto md:rounded-lg"
                 src="https://images.unsplash.com/photo-1516647474-2ecbb8fec7fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
@@ -109,7 +109,7 @@
               </svg>
             </div>
           </div>
-          <div class="md:w-1/2 px-10 md:px-16 lg:px-6 lg:w-1/4">
+          <div class="md:w-1/2 px-10 md:px-16 lg:px-4 lg:w-1/4">
             <div>
               <img class="h-full w-full object-cover mx-auto md:rounded-lg"
                 src="https://images.unsplash.com/photo-1516647474-2ecbb8fec7fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
@@ -124,7 +124,7 @@
               </svg>
             </div>
           </div>
-          <div class="md:w-1/2 px-10 md:px-16 lg:px-6 lg:w-1/4">
+          <div class="md:w-1/2 px-10 md:px-16 lg:px-4 lg:w-1/4">
             <div>
               <img class="h-full w-full object-cover mx-auto md:rounded-lg"
                 src="https://images.unsplash.com/photo-1516647474-2ecbb8fec7fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
@@ -139,7 +139,7 @@
               </svg>
             </div>
           </div>
-          <div class="md:w-1/2 px-10 md:px-16 lg:px-6 lg:w-1/4">
+          <div class="md:w-1/2 px-10 md:px-16 lg:px-4 lg:w-1/4">
             <div>
               <img class="h-full w-full object-cover mx-auto md:rounded-lg"
                 src="https://images.unsplash.com/photo-1516647474-2ecbb8fec7fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
