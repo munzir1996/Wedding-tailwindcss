@@ -69,7 +69,7 @@
               </svg>
             </button>
             <div :class="{'hidden' : !isDropDown, '' : isDropDown}">
-              <a href="#" class="block px-4 py-2 rounded-full text-white hover:text-gray-500">1-photographers</a>
+              <a href="#" class="block px-4 pb-2 rounded-full text-white hover:text-gray-500">1-photographers</a>
               <a href="#" class="block px-4 py-2 rounded-full text-white hover:text-gray-500">2-wedding dress</a>
               <a href="#" class="block px-4 py-2 rounded-full text-white hover:text-gray-500">3-wedding cars</a>
               <a href="#" class="block px-4 py-2 rounded-full text-white hover:text-gray-500">4-make up artist</a>
