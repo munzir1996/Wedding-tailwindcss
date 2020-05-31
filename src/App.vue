@@ -2,7 +2,7 @@
   <div id="app" class="font-roboto min-h-screen">
     <Header />
       <div class="md:px-10 md:mt-32 md:mb-10">
-        <div class="md:container md:mx-auto md:w-11/12">
+        <div class="md:container md:mx-auto md:w-11/12 bg-center">
           <agile>
             <div class="slide">
               <img class="h-full w-full object-cover mx-auto md:rounded-lg"
@@ -16,7 +16,7 @@
         </div>
         <div class="my-10 md:px-16 md:flex">
           <div class="flex justify-center md:justify-start md:w-2/3">
-            <button class="focus:outline-none border px-3 h-24 w-24 shadow-lg rounded-full">
+            <button class="focus:outline-none border px-3 h-24 w-24 bg-white shadow-lg rounded-full">
               <svg class="fill-current h-16 w-16" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 491.996 491.996"
               style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
@@ -60,12 +60,12 @@
             </button>
           </div>
           <div class="flex justify-center py-10 md:py-0 md:w-2/3 md:text-center">
-            <button class="focus:outline-none border px-3 h-24 w-24 shadow-lg rounded-full">
+            <button class="focus:outline-none border px-3 h-24 w-24 bg-white shadow-lg rounded-full">
               <svg class="fill-current h-16 w-16" height="511pt" viewBox="0 -24 511.99906 511" width="511pt" xmlns="http://www.w3.org/2000/svg"><path d="m50 262.597656c-5.519531 0-10 4.480469-10 10 0 5.519532 4.480469 10 10 10s10-4.480468 10-10c0-5.519531-4.480469-10-10-10zm0 0"/><path d="m459.617188 297.273438-94.273438 32.410156c.417969-2.320313.652344-4.6875.652344-7.089844 0-22.054688-17.941406-40-40-40h-64.757813c-1.71875 0-3.414062-.441406-4.910156-1.285156l-52.832031-29.714844c-10.445313-5.886719-22.316406-9-34.328125-9h-70.890625c-4.125-11.636719-15.242188-19.996094-28.277344-19.996094h-60c-5.523438 0-10 4.476563-10 10v179.996094c0 5.523438 4.476562 10 10 10h60c12.738281 0 23.660156-8.003906 27.996094-19.246094 11.320312 1.40625 24.417968 4.753906 32.648437 9.691406l52.296875 31.378907c19.8125 11.890625 42.496094 18.175781 65.605469 18.175781 18.3125 0 36.054687-3.84375 52.738281-11.421875l186.644532-82.183594c20.671874-8.386719 30.878906-33.1875 19.0625-55.046875-8.691407-16.085937-29.046876-23.242187-47.375-16.667968zm-379.617188 95.367187c-.023438 5.492187-4.503906 9.953125-10 9.953125h-50v-159.996094h50c5.511719 0 10 4.484375 10 10zm400.332031-42.148437c-.105469.039062-.210937.085937-.316406.128906 0 0-186.921875 82.304687-186.957031 82.320312-14.082032 6.40625-29.058594 9.652344-44.511719 9.652344-19.484375 0-38.609375-5.296875-55.3125-15.324219l-52.300781-31.378906c-11.195313-6.714844-27.226563-10.808594-40.933594-12.449219v-120.84375h69.167969c8.578125 0 17.054687 2.21875 24.519531 6.425782l52.832031 29.714843c4.476563 2.523438 9.570313 3.859375 14.71875 3.859375h64.757813c11.027344 0 20 8.96875 20 20 0 10.988282-8.976563 20-20 20h-101.65625c-5.523438 0-10 4.476563-10 10 0 5.519532 4.476562 9.996094 10 9.996094h101.65625c6.558594 0 13.015625-1.628906 18.746094-4.683594 0 0 121.542968-41.78125 121.589843-41.796875 8.960938-3.234375 19.09375-.015625 23.066407 7.335938 5.957031 11.019531 1.03125 23-9.066407 27.042969zm0 0"/><path d="m291.246094 243.054688c1.882812 1.628906 4.214844 2.441406 6.550781 2.441406s4.671875-.8125 6.550781-2.441406c81.589844-70.710938 132.058594-106.496094 132.058594-162.105469 0-43.992188-31.144531-80.449219-74.898438-80.449219-28.734374 0-50.738281 16.5625-64.910156 41.417969-14.140625-24.800781-36.121094-41.417969-64.898437-41.417969-33.496094 0-61.5 21.707031-71.34375 55.296875-1.554688 5.300781 1.484375 10.855469 6.785156 12.410156 5.300781 1.554688 10.855469-1.484375 12.40625-6.785156 7.285156-24.859375 27.753906-40.921875 52.152344-40.921875 28.527343 0 48.539062 25.332031 55.261719 48.917969 1.199218 4.332031 5.144531 7.332031 9.636718 7.332031 4.496094 0 8.4375-3 9.636719-7.332031.136719-.488281 14.027344-48.917969 55.273437-48.917969 31.296876 0 54.898438 25.984375 54.898438 60.449219 0 44.484375-43.484375 76.554687-118.617188 141.335937-45.777343-39.3125-82.140624-66.984375-102.808593-94.054687-3.351563-4.390625-9.625-5.234375-14.015625-1.882813-4.390625 3.351563-5.230469 9.625-1.882813 14.019532 23.296875 30.511718 62.625 59.746093 112.164063 102.6875zm0 0"/><path d="m169 88.597656c-5.519531 0-10 4.480469-10 10 0 5.519532 4.480469 10 10 10s10-4.480468 10-10c0-5.519531-4.480469-10-10-10zm0 0"/></svg>
             </button>
           </div>
           <div class="flex justify-center md:justify-end md:w-2/3 md:text-right">
-            <button class="focus:outline-none border px-4 h-24 w-24 shadow-lg rounded-full">
+            <button class="focus:outline-none border px-4 h-24 w-24 bg-white shadow-lg rounded-full">
               <svg class="fill-current h-16 w-16" viewBox="0 -28 512.001 512" xmlns="http://www.w3.org/2000/svg"><path d="m256 455.515625c-7.289062 0-14.316406-2.640625-19.792969-7.4375-20.683593-18.085937-40.625-35.082031-58.21875-50.074219l-.089843-.078125c-51.582032-43.957031-96.125-81.917969-127.117188-119.3125-34.644531-41.804687-50.78125-81.441406-50.78125-124.742187 0-42.070313 14.425781-80.882813 40.617188-109.292969 26.503906-28.746094 62.871093-44.578125 102.414062-44.578125 29.554688 0 56.621094 9.34375 80.445312 27.769531 12.023438 9.300781 22.921876 20.683594 32.523438 33.960938 9.605469-13.277344 20.5-24.660157 32.527344-33.960938 23.824218-18.425781 50.890625-27.769531 80.445312-27.769531 39.539063 0 75.910156 15.832031 102.414063 44.578125 26.191406 28.410156 40.613281 67.222656 40.613281 109.292969 0 43.300781-16.132812 82.9375-50.777344 124.738281-30.992187 37.398437-75.53125 75.355469-127.105468 119.308594-17.625 15.015625-37.597657 32.039062-58.328126 50.167969-5.472656 4.789062-12.503906 7.429687-19.789062 7.429687zm-112.96875-425.523437c-31.066406 0-59.605469 12.398437-80.367188 34.914062-21.070312 22.855469-32.675781 54.449219-32.675781 88.964844 0 36.417968 13.535157 68.988281 43.882813 105.605468 29.332031 35.394532 72.960937 72.574219 123.476562 115.625l.09375.078126c17.660156 15.050781 37.679688 32.113281 58.515625 50.332031 20.960938-18.253907 41.011719-35.34375 58.707031-50.417969 50.511719-43.050781 94.136719-80.222656 123.46875-115.617188 30.34375-36.617187 43.878907-69.1875 43.878907-105.605468 0-34.515625-11.605469-66.109375-32.675781-88.964844-20.757813-22.515625-49.300782-34.914062-80.363282-34.914062-22.757812 0-43.652344 7.234374-62.101562 21.5-16.441406 12.71875-27.894532 28.796874-34.609375 40.046874-3.453125 5.785157-9.53125 9.238282-16.261719 9.238282s-12.808594-3.453125-16.261719-9.238282c-6.710937-11.25-18.164062-27.328124-34.609375-40.046874-18.449218-14.265626-39.34375-21.5-62.097656-21.5zm0 0"/></svg>
             </button>
           </div>
@@ -91,64 +91,64 @@
       <!-- Carsole -->
       <div class="px-10">
         <div class="pb-10">
-          <span class="text-4xl">Our Master Photographers</span>
+          <span class="text-3xl md:text-4xl italic uppercase">our master photographers</span>
         </div>
         <div class="flex flex-wrap">
-          <div class="md:w-1/2 px-10 md:px-16 lg:px-4 lg:w-1/4">
+          <div class="md:w-1/2 md:px-10 md:px-16 lg:px-4 lg:w-1/4">
             <div>
               <img class="h-full w-full object-cover mx-auto md:rounded-lg"
                 src="https://images.unsplash.com/photo-1516647474-2ecbb8fec7fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
             </div>
-            <div class="pt-5 py-2 text-5xl md:text-3xl">
-              Ahmed Omer
+            <div class="pt-5 py-2 text-2xl sm:text-3xl italic">
+              ahmed omer
             </div>
             <div class="flex justify-evenly pb-10 text-yellow-500">
-              <svg v-for="(i, k) in 5" :key="k" class="h-10 w-10 md:h-8 md:w-8 fill-current"  height="511pt" viewBox="0 -10 511.99143 511" width="511pt"
+              <svg v-for="(i, k) in 5" :key="k" class="h-8 w-8 md:h-10 md:w-10 md:h-8 md:w-8 fill-current"  height="511pt" viewBox="0 -10 511.99143 511" width="511pt"
                 xmlns="http://www.w3.org/2000/svg">
                 <path d="m510.652344 185.882812c-3.371094-10.367187-12.566406-17.707031-23.402344-18.6875l-147.796875-13.417968-58.410156-136.75c-4.3125-10.046875-14.125-16.53125-25.046875-16.53125s-20.738282 6.484375-25.023438 16.53125l-58.410156 136.75-147.820312 13.417968c-10.835938 1-20.011719 8.339844-23.402344 18.6875-3.371094 10.367188-.257813 21.738282 7.9375 28.925782l111.722656 97.964844-32.941406 145.085937c-2.410156 10.667969 1.730468 21.699219 10.582031 28.097656 4.757813 3.457031 10.347656 5.183594 15.957031 5.183594 4.820313 0 9.644532-1.28125 13.953125-3.859375l127.445313-76.203125 127.421875 76.203125c9.347656 5.585938 21.101562 5.074219 29.933593-1.324219 8.851563-6.398437 12.992188-17.429687 10.582032-28.097656l-32.941406-145.085937 111.722656-97.964844c8.191406-7.1875 11.308594-18.535156 7.9375-28.925782zm-252.203125 223.722657" />
               </svg>
             </div>
           </div>
-          <div class="md:w-1/2 px-10 md:px-16 lg:px-4 lg:w-1/4">
+          <div class="md:w-1/2 md:px-10 md:px-16 lg:px-4 lg:w-1/4">
             <div>
               <img class="h-full w-full object-cover mx-auto md:rounded-lg"
                 src="https://images.unsplash.com/photo-1516647474-2ecbb8fec7fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
             </div>
-            <div class="pt-5 py-2 text-5xl md:text-3xl">
-              Hassan Ahmed
+            <div class="pt-5 py-2 text-2xl sm:text-3xl italic">
+              hassan ahmed
             </div>
             <div class="flex justify-evenly pb-10 text-yellow-500">
-              <svg v-for="(i, k) in 5" :key="k" class="h-10 w-10 md:h-8 md:w-8 fill-current"  height="511pt" viewBox="0 -10 511.99143 511" width="511pt"
+              <svg v-for="(i, k) in 5" :key="k" class="h-8 w-8 md:h-10 md:w-10 md:h-8 md:w-8 fill-current"  height="511pt" viewBox="0 -10 511.99143 511" width="511pt"
                 xmlns="http://www.w3.org/2000/svg">
                 <path d="m510.652344 185.882812c-3.371094-10.367187-12.566406-17.707031-23.402344-18.6875l-147.796875-13.417968-58.410156-136.75c-4.3125-10.046875-14.125-16.53125-25.046875-16.53125s-20.738282 6.484375-25.023438 16.53125l-58.410156 136.75-147.820312 13.417968c-10.835938 1-20.011719 8.339844-23.402344 18.6875-3.371094 10.367188-.257813 21.738282 7.9375 28.925782l111.722656 97.964844-32.941406 145.085937c-2.410156 10.667969 1.730468 21.699219 10.582031 28.097656 4.757813 3.457031 10.347656 5.183594 15.957031 5.183594 4.820313 0 9.644532-1.28125 13.953125-3.859375l127.445313-76.203125 127.421875 76.203125c9.347656 5.585938 21.101562 5.074219 29.933593-1.324219 8.851563-6.398437 12.992188-17.429687 10.582032-28.097656l-32.941406-145.085937 111.722656-97.964844c8.191406-7.1875 11.308594-18.535156 7.9375-28.925782zm-252.203125 223.722657" />
               </svg>
             </div>
           </div>
-          <div class="md:w-1/2 px-10 md:px-16 lg:px-4 lg:w-1/4">
+          <div class="md:w-1/2 md:px-10 md:px-16 lg:px-4 lg:w-1/4">
             <div>
               <img class="h-full w-full object-cover mx-auto md:rounded-lg"
                 src="https://images.unsplash.com/photo-1516647474-2ecbb8fec7fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
             </div>
-            <div class="pt-5 py-2 text-5xl md:text-3xl">
-              Hassan Ahmed
+            <div class="pt-5 py-2 text-2xl sm:text-3xl italic">
+              hassan ahmed
             </div>          
             <div class="flex justify-evenly pb-10 text-yellow-500">
-              <svg v-for="(i, k) in 5" :key="k" class="h-10 w-10 md:h-8 md:w-8 fill-current"  height="511pt" viewBox="0 -10 511.99143 511" width="511pt"
+              <svg v-for="(i, k) in 5" :key="k" class="h-8 w-8 md:h-10 md:w-10 md:h-8 md:w-8 fill-current"  height="511pt" viewBox="0 -10 511.99143 511" width="511pt"
                 xmlns="http://www.w3.org/2000/svg">
                 <path d="m510.652344 185.882812c-3.371094-10.367187-12.566406-17.707031-23.402344-18.6875l-147.796875-13.417968-58.410156-136.75c-4.3125-10.046875-14.125-16.53125-25.046875-16.53125s-20.738282 6.484375-25.023438 16.53125l-58.410156 136.75-147.820312 13.417968c-10.835938 1-20.011719 8.339844-23.402344 18.6875-3.371094 10.367188-.257813 21.738282 7.9375 28.925782l111.722656 97.964844-32.941406 145.085937c-2.410156 10.667969 1.730468 21.699219 10.582031 28.097656 4.757813 3.457031 10.347656 5.183594 15.957031 5.183594 4.820313 0 9.644532-1.28125 13.953125-3.859375l127.445313-76.203125 127.421875 76.203125c9.347656 5.585938 21.101562 5.074219 29.933593-1.324219 8.851563-6.398437 12.992188-17.429687 10.582032-28.097656l-32.941406-145.085937 111.722656-97.964844c8.191406-7.1875 11.308594-18.535156 7.9375-28.925782zm-252.203125 223.722657" />
               </svg>
             </div>
           </div>
-          <div class="md:w-1/2 px-10 md:px-16 lg:px-4 lg:w-1/4">
+          <div class="md:w-1/2 md:px-10 md:px-16 lg:px-4 lg:w-1/4">
             <div>
               <img class="h-full w-full object-cover mx-auto md:rounded-lg"
                 src="https://images.unsplash.com/photo-1516647474-2ecbb8fec7fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
             </div>
-            <div class="pt-5 py-2 text-5xl md:text-3xl">
-              Ali Omer
+            <div class="pt-5 py-2 text-2xl sm:text-3xl italic">
+              ali omer
             </div>
             <div class="flex justify-evenly pb-10 text-yellow-500">
-              <svg v-for="(i, k) in 5" :key="k" class="h-10 w-10 md:h-8 md:w-8 fill-current"  height="511pt" viewBox="0 -10 511.99143 511" width="511pt"
+              <svg v-for="(i, k) in 5" :key="k" class="h-8 w-8 md:h-10 md:w-10 md:h-8 md:w-8 fill-current"  height="511pt" viewBox="0 -10 511.99143 511" width="511pt"
                 xmlns="http://www.w3.org/2000/svg">
                 <path d="m510.652344 185.882812c-3.371094-10.367187-12.566406-17.707031-23.402344-18.6875l-147.796875-13.417968-58.410156-136.75c-4.3125-10.046875-14.125-16.53125-25.046875-16.53125s-20.738282 6.484375-25.023438 16.53125l-58.410156 136.75-147.820312 13.417968c-10.835938 1-20.011719 8.339844-23.402344 18.6875-3.371094 10.367188-.257813 21.738282 7.9375 28.925782l111.722656 97.964844-32.941406 145.085937c-2.410156 10.667969 1.730468 21.699219 10.582031 28.097656 4.757813 3.457031 10.347656 5.183594 15.957031 5.183594 4.820313 0 9.644532-1.28125 13.953125-3.859375l127.445313-76.203125 127.421875 76.203125c9.347656 5.585938 21.101562 5.074219 29.933593-1.324219 8.851563-6.398437 12.992188-17.429687 10.582032-28.097656l-32.941406-145.085937 111.722656-97.964844c8.191406-7.1875 11.308594-18.535156 7.9375-28.925782zm-252.203125 223.722657" />
               </svg>
@@ -159,23 +159,135 @@
       <!-- Photographers -->
       <div class="px-10">
         <div class="pb-10">
-          <span class="text-4xl">Wedding Style</span>
+          <span class="text-3xl md:text-4xl italic uppercase">wedding style</span>
         </div>
         <div>
-          <carousel-3d :width="500" :height="500">
+          <carousel-3d :width="300" :height="400">
             <slide :index="0">
-              <img class="h-full w-full object-cover mx-auto md:rounded-lg"
+              <img class="h-full w-full object-cover bg-center mx-auto md:rounded-lg"
               src="https://images.unsplash.com/photo-1557363763-8381968f8353?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
             </slide>
             <slide :index="1">
-              <img class="h-full w-full object-cover mx-auto md:rounded-lg"
+              <img class="h-full w-full object-cover bg-center mx-auto md:rounded-lg"
               src="https://images.unsplash.com/photo-1557363763-8381968f8353?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
             </slide>
             <slide :index="2">
-              <img class="h-full w-full object-cover mx-auto md:rounded-lg"
+              <img class="h-full w-full object-cover bg-center mx-auto md:rounded-lg"
               src="https://images.unsplash.com/photo-1557363763-8381968f8353?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
             </slide>
           </carousel-3d>
+        </div>
+        <div class="flex justify-center mt-24 mb-10">
+          <button class="px-5 py-5 focus:outline-none bg-gray-400 rounded-full shadow-lg">
+            explore more
+          </button>
+        </div>
+      </div>
+      <!-- 3D Carsol -->
+      <div class="px-10">
+        <div class="text-3xl md:text-4xl uppercase">
+          our lasted arts
+        </div>
+        <div class="md:flex">
+          <div class="md:w-1/2">
+            <div class="px-5 md:px-10 py-4 text-2xl">
+              video gallery
+            </div>
+            <div class="grid grid-cols-3 gap-2 px-2 py-2 mx-5 md:mx-10 bg-white border border-gray-500 h-26 rounded-lg">
+              <div v-for="(i, k) in 9" :key="k" class="w-full h-full">
+                <img class="object-cover w-full h-full rounded-lg"
+                src="https://images.unsplash.com/photo-1553102674-af685bb5fe40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
+              </div>
+            </div>
+            <div class="px-5 md:px-10 py-10 flex justify-center">
+              <button class="px-5 py-5 focus:outline-none bg-gray-400 rounded-full shadow-lg">
+                watch other amazing things
+              </button>
+            </div>
+          </div>
+          <div class="md:w-1/2">
+            <div class="px-5 md:px-10 py-4 text-2xl">
+              automatic play
+            </div>
+            <div class="mx-5 md:mx-10">
+              <div>
+                <img class="object-cover object-center w-full h-26 rounded-lg"
+                src="https://images.unsplash.com/photo-1548765015-1e047ff5c9e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Latest Art -->
+      <div class="px-10">
+        <div class="py-10">
+          <span class="text-3xl md:text-4xl uppercase">best wedding cars</span>
+        </div>
+        <div class="flex flex-wrap">
+          <div class="md:w-1/2 md:px-10 md:px-16 lg:px-4 lg:w-1/4">
+            <div>
+              <img class="h-full w-full object-cover mx-auto md:rounded-lg"
+                src="https://images.unsplash.com/photo-1558173818-8863cc640a50?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=890&q=80">
+            </div>
+            <div class="pt-5 py-2 text-2xl sm:text-3xl text-center">
+              obtima
+            </div>
+            <div class="flex justify-evenly pb-10">
+              <div class="px-5 md:px-10 py-5 flex justify-center">
+                <button class="px-8 py-2 focus:outline-none bg-gray-400 rounded-full">
+                  get it
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-1/2 md:px-10 md:px-16 lg:px-4 lg:w-1/4">
+            <div>
+              <img class="h-full w-full object-cover mx-auto md:rounded-lg"
+                src="https://images.unsplash.com/photo-1558173818-8863cc640a50?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=890&q=80">
+            </div>
+            <div class="pt-5 py-2 text-2xl sm:text-3xl text-center">
+              bmw
+            </div>
+            <div class="flex justify-evenly pb-10">
+              <div class="px-5 md:px-10 py-5 flex justify-center">
+                <button class="px-8 py-2 focus:outline-none bg-gray-400 rounded-full">
+                  get it
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-1/2 md:px-10 md:px-16 lg:px-4 lg:w-1/4">
+            <div>
+              <img class="h-full w-full object-cover mx-auto md:rounded-lg"
+                src="https://images.unsplash.com/photo-1558173818-8863cc640a50?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=890&q=80">
+            </div>
+            <div class="pt-5 py-2 text-2xl sm:text-3xl text-center">
+              v8
+            </div>          
+            <div class="flex justify-evenly pb-10">
+              <div class="px-5 md:px-10 py-5 flex justify-center">
+                <button class="px-8 py-2 focus:outline-none bg-gray-400 rounded-full">
+                  get it
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-1/2 md:px-10 md:px-16 lg:px-4 lg:w-1/4">
+            <div>
+              <img class="h-full w-full object-cover mx-auto md:rounded-lg"
+                src="https://images.unsplash.com/photo-1558173818-8863cc640a50?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=890&q=80">
+            </div>
+            <div class="pt-5 py-2 text-2xl sm:text-3xl text-center">
+              C class
+            </div>
+            <div class="flex justify-evenly pb-10">
+              <div class="px-5 md:px-10 py-5 flex justify-center">
+                <button class="px-8 py-2 focus:outline-none bg-gray-400 rounded-full">
+                  get it
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
